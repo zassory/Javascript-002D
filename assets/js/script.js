@@ -19,6 +19,7 @@ btnEnviar.addEventListener("click", function(e){
     let numero1 = 1;
     let numero2 = "1";
     
+    
     if(nombreV === ""){
         error1.innerHTML = "Error al ingresar el nombre";
         error1.style.color = "red";
